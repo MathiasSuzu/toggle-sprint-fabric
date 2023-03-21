@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "tsbs",
+  "version": "${version}",
+
+  "name": "Toggle Sprint BS",
+  "description": "Toggle Sprint for fabric",
+  "authors": [
+    "SEPT_Mg"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tsbs/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.septmg.Toggle.Sprint.Main"
+    ]
+  },
+  "mixins": [
+    "tsbs.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
