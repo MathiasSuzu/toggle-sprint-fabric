@@ -1,4 +1,4 @@
-package fr.septmg.Toggle.Sprint;
+package fr.m.Toggle.Sprint;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
